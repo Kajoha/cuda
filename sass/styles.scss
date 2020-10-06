@@ -25,4 +25,12 @@ body {
 @import 'partial/conte';
 @import 'partial/none';
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table; }
+
+@import 'partial/tittle';
+
+
 
