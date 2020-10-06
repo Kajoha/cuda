@@ -61,3 +61,10 @@ body {
   height: 320px;
   margin-left: 60px;
   align-content: center; }
+
+#none {
+  margin-left: 0px; }
+  #none p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px; }
