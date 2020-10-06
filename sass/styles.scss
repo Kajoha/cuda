@@ -1,3 +1,25 @@
 // Aplicación de sass desde cero - nuevo archivo 
- 
+$primary-color: #ffffff;
+$primary-font: Arial, Helvetica, sans-serif;
+
+%style {
+    text-align: center;
+    color: $primary-color;
+    font-size: 14px; 
+}
+
+body {
+    margin: 0pt;
+    font-family: $primary-font;
+}
+
+#header {
+    background-color: #87509C;
+    height: 594px;
+}
+
+
 @import 'partial/menuTop';
+@import 'partial/logo';
+
+
