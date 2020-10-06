@@ -1,4 +1,6 @@
-#menutop {
+$primary-color: #ffffff;
+
+.menutop {
     float: left;
     font-size: 12px;
     text-decoration: none;
@@ -8,12 +10,13 @@
     padding: 55px 0 0 0;
     margin: 0; }
 
-#menutoplist { list-style: none;
-    padding: 0; }
+.menutoplist { list-style: none;
+    padding: 0; 
 
-#menutoplist li {
-    float: left;
-    margin-left: 44px; }
-        
-#menutoplist li:first-child {
-    margin-left: 0; }
+    li {
+        float: left;
+        margin-left: 44px; }
+            
+    li:first-child {
+        margin-left: 0; }
+}
