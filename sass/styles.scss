@@ -1,4 +1,5 @@
 // Aplicación de sass desde cero - nuevo archivo 
+// creando variables que se usaran en los partial y en el style principal
 $primary-color: #ffffff;
 $primary-font: Arial, Helvetica, sans-serif;
 
@@ -18,10 +19,12 @@ body {
     height: 594px;
 }
 
+// importando los archivos sass que estan en partial
 
 @import 'partial/menuTop';
 @import 'partial/logo';
 @import 'partial/welcome';
+@import 'partial/stylep';
 @import 'partial/conte';
 @import 'partial/none';
 
@@ -31,6 +34,8 @@ body {
     display: table; }
 
 @import 'partial/tittle';
+
+// configuraciones generales 
 
 #size {
     margin-left: 135px;
@@ -47,6 +52,9 @@ h4 {
   
 .imgen {
     align-content: center; }
+
+@import 'partial/menulow';
+
   
 
 

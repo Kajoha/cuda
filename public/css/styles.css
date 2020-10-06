@@ -52,6 +52,14 @@ body {
   position: absolute;
   margin-left: 385px; }
 
+#stylep {
+  text-align: center;
+  position: relative; }
+  #stylep p {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold; }
+
 #content {
   background-color: #17C2A4;
   height: 747px; }
@@ -107,3 +115,24 @@ h4 {
 
 .imgen {
   align-content: center; }
+
+#footnote {
+  background-color: #344B8E;
+  height: 102px; }
+
+.menulow {
+  font-size: 18px;
+  text-decoration: none;
+  color: #ffffff;
+  align-content: center; }
+
+.menulowlist {
+  list-style: none;
+  padding-left: 250px;
+  margin: 0; }
+  .menulowlist li {
+    padding-top: 40px;
+    float: left;
+    margin-left: 44px; }
+  .menulowlist li:first-child {
+    margin-left: 0; }
