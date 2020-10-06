@@ -1,0 +1,52 @@
+$fondo: #f19130;
+
+#styleA {
+    a {
+        font-size: 20px;
+        font-weight: bolder;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 30px;
+        background-color: $fondo;
+        color: $primary-color;
+    }
+
+    a:hover {
+        color: #616161;
+    }
+}
+
+
+.modal-conten {
+    background-color: #787276;
+    width:300px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+
+   a:hover {
+        color: red;
+    }
+    
+    h2 {
+        font-size: 15px;
+        color: white;
+    }
+}
+
+.modal {
+    background-color: rgba(0,0,0,.8);
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 0s;
+}
+
+#callModal:target {
+    opacity:1;
+    pointer-events:auto;
+}
