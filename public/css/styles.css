@@ -1,3 +1,8 @@
+.stylei {
+  text-align: center;
+  color: #ffffff;
+  font-size: 14px; }
+
 body {
   margin: 0pt;
   font-family: Arial, Helvetica, sans-serif; }
@@ -89,3 +94,16 @@ body {
   color: #ffffff;
   font-size: 16px;
   margin-top: 48px; }
+
+#size {
+  margin-left: 135px;
+  margin-top: 75px; }
+
+h4 {
+  margin-top: 60px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase; }
+
+.imgen {
+  align-content: center; }

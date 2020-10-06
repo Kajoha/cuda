@@ -32,5 +32,21 @@ body {
 
 @import 'partial/tittle';
 
+#size {
+    margin-left: 135px;
+    margin-top: 75px; }
+  
+h4 {
+    margin-top: 60px;
+    text-align: center;
+    color: $primary-color;
+    text-transform: uppercase; }
+  
+.stylei {
+    @extend %style; }
+  
+.imgen {
+    align-content: center; }
+  
 
 
