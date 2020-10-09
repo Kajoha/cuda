@@ -1,14 +1,17 @@
 $fondo: #f19130;
 
 #styleA {
+    position: absolute;
+
     a {
-        font-size: 20px;
-        font-weight: bolder;
-        text-decoration: none;
-        text-align: center;
-        border-radius: 30px;
-        background-color: $fondo;
-        color: $primary-color;
+    font-size: $size-font;
+    font-weight: bold;
+    color: $primary-color;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 29px;
+    background-color: #EB7D4B;
+    border-color: #C86A3F;
+    position: relative;
     }
 
     a:hover {
@@ -29,7 +32,7 @@ $fondo: #f19130;
     }
     
     h2 {
-        font-size: 15px;
+        font-size: 0.938em;
         color: white;
     }
 }

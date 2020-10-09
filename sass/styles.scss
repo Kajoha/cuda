@@ -2,11 +2,12 @@
 // creando variables que se usaran en los partial y en el style principal
 $primary-color: #ffffff;
 $primary-font: Arial, Helvetica, sans-serif;
+$size-font: 0.875em;
 
 %style {
     text-align: center;
     color: $primary-color;
-    font-size: 14px; 
+    font-size: $size-font; 
 }
 
 body {
@@ -16,14 +17,14 @@ body {
 
 #header {
     background-color: #87509C;
-    height: 594px;
+    height: 51%;
 }
 
 // importando los archivos sass que estan en partial
 
-@import 'partial/menuTop';
 @import 'partial/logo';
-@import 'partial/welcome';
+@import 'partial/menuTop';
+@import 'partial/welcome'; 
 @import 'partial/stylep';
 @import 'partial/conte';
 @import 'partial/none';
@@ -54,7 +55,7 @@ h4 {
     align-content: center; }
 
 @import 'partial/menulow';
-@import 'partial/modal'; 
+@import 'partial/modal';
 
   
 

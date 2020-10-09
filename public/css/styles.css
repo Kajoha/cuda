@@ -1,7 +1,7 @@
 .stylei {
   text-align: center;
   color: #ffffff;
-  font-size: 14px; }
+  font-size: 0.875em; }
 
 body {
   margin: 0pt;
@@ -9,11 +9,16 @@ body {
 
 #header {
   background-color: #87509C;
-  height: 594px; }
+  height: 51%; }
+
+#logo {
+  float: left;
+  margin: 0px;
+  padding: 55px 33% 0px 14%; }
 
 .menutop {
   float: left;
-  font-size: 12px;
+  font-size: 0.75em;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
@@ -26,43 +31,27 @@ body {
   padding: 0; }
   .menutoplist li {
     float: left;
-    margin-left: 44px; }
+    margin-left: 7%; }
   .menutoplist li:first-child {
     margin-left: 0; }
 
-#logo {
-  float: left;
-  margin: 0px;
-  padding: 55px 480px 0px 210px; }
-
 #welcome {
   padding-top: 232px;
-  width: 924px;
-  height: 224px;
+  width: 72%;
+  height: 15%;
   margin: 0 auto; }
-
-#welcome button {
-  font-size: 14px;
-  font-weight: bold;
-  color: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 10px 29px;
-  background-color: #EB7D4B;
-  border-color: #C86A3F;
-  position: absolute;
-  margin-left: 385px; }
 
 #stylep {
   text-align: center;
   position: relative; }
   #stylep p {
     color: #ffffff;
-    font-size: 32px;
+    font-size: 2em;
     font-weight: bold; }
 
 #content {
   background-color: #17C2A4;
-  height: 747px; }
+  height: 71%; }
 
 .styleone {
   padding: 0px;
@@ -70,8 +59,8 @@ body {
 
 .conte {
   float: left;
-  width: 216px;
-  height: 320px;
+  width: 16%;
+  height: 22%;
   margin-left: 60px;
   align-content: center; }
 
@@ -80,7 +69,7 @@ body {
   #none p {
     text-align: center;
     color: #ffffff;
-    font-size: 14px; }
+    font-size: 0.875em; }
 
 .clearfix::after {
   content: "";
@@ -94,14 +83,14 @@ body {
   text-align: center;
   color: #ffffff;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 1.875em;
   margin: 0; }
 
 .tittle p {
   text-align: center;
   color: #ffffff;
-  font-size: 16px;
-  margin-top: 48px; }
+  font-size: 1em;
+  margin-top: 4%; }
 
 #size {
   margin-left: 135px;
@@ -118,37 +107,38 @@ h4 {
 
 #footnote {
   background-color: #344B8E;
-  height: 102px; }
+  height: 104px; }
 
 .menulow {
-  font-size: 18px;
+  font-size: 1.125em;
   text-decoration: none;
   color: #ffffff;
   align-content: center; }
 
 .menulowlist {
   list-style: none;
-  padding-left: 250px;
+  padding-left: 19%;
   margin: 0; }
   .menulowlist li {
     padding-top: 40px;
     float: left;
-    margin-left: 44px; }
+    margin-left: 6%; }
   .menulowlist li:first-child {
     margin-left: 0; }
 
-#styleA a {
-  padding: 10px;
-  font-size: 20px;
-  font-weight: bolder;
-  text-decoration: none;
-  text-align: center;
-  border-radius: 30px;
-  background-color: #f19130;
-  color: #ffffff; }
-
-#styleA a:hover {
-  color: #616161; }
+#styleA {
+  position: absolute; }
+  #styleA a {
+    font-size: 0.875em;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 29px;
+    background-color: #EB7D4B;
+    border-color: #C86A3F;
+    position: relative; }
+  #styleA a:hover {
+    color: #616161; }
 
 .modal-conten {
   background-color: #787276;
@@ -159,7 +149,7 @@ h4 {
   .modal-conten a:hover {
     color: red; }
   .modal-conten h2 {
-    font-size: 15px;
+    font-size: 0.938em;
     color: white; }
 
 .modal {

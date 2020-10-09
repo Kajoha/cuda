@@ -1,22 +1,22 @@
 #footnote {
     background-color: #344B8E;
-    height: 102px; }
+    height: 104px; }
 
 .menulow {
-    font-size: 18px;
+    font-size: 1.125em;
     text-decoration: none;
     color: $primary-color;
     align-content: center; }
   
 .menulowlist {
     list-style: none;
-    padding-left: 250px;
+    padding-left: 19%;
     margin: 0; 
     
     li {
         padding-top: 40px;
         float: left;
-        margin-left: 44px; }
+        margin-left: 6%; }
       
     li:first-child {
         margin-left: 0; }
