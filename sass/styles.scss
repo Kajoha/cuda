@@ -1,5 +1,7 @@
 // Aplicación de sass desde cero - nuevo archivo 
 // creando variables que se usaran en los partial y en el style principal
+@import './normalize';
+
 $primary-color: #ffffff;
 $primary-font: Arial, Helvetica, sans-serif;
 $size-font: 0.875em;
